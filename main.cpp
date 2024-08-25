@@ -1,7 +1,7 @@
 #include <dpp/dpp.h>
 #include <iostream>
 
-const std::string token = "MTI3NzMzNjg3NTk2NjY2NDg5NQ.GOe3au.GXU3J9Ne0kijCAaEC23FsKD5xlWC6dJMeOgkmU";
+const std::string token = "YOUR_TOKEN";
 int main() {
     dpp::cluster bot(token);
     bot.on_log(dpp::utility::cout_logger());
